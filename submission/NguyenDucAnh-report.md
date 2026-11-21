@@ -50,7 +50,7 @@ Hai ZIP mở được bằng `road_check lint`, đúng cấu trúc CVAT for imag
 | NguyenDucAnh_front.zip | Có / Có | chưa ghi / 7 | chưa ghi / 6 | Có |
 | NguyenDucAnh_fisheye.zip | Có / Có | chưa ghi / 1 | chưa ghi / 4 | Có |
 
-Lint hiện còn 6 cảnh báo nặng và 9 cảnh báo chính; xem `NguyenDucAnh-lint.txt` trong thư mục dự án.
+Lint hiện còn 6 cảnh báo nặng và 9 cảnh báo chính: QC1-02 thiếu L1/R1 ở A03, A05, A07, A09; QC1-03 lane B08 chưa là other; QC1-04 cần kiểm chiều lane A02, A06, A07, A11, A12; QC1-11 cần kiểm edge_zone B02 và thêm điểm cho road_curb B07, lane B08.
 
 ## 6. Ảnh chụp màn hình
 
@@ -70,3 +70,4 @@ Polyline bị đảo chiều có thể làm sai thứ tự điểm gần/xa mà 
 ## 8. (Tùy chọn, buffer) Từ polyline đến đích row-anchor
 
 Không thực hiện.
+
